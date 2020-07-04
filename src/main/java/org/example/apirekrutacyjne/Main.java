@@ -2,6 +2,7 @@ package org.example.apirekrutacyjne;
 
 import lombok.extern.log4j.Log4j;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
 
@@ -27,7 +28,8 @@ Format daty wejściowej serwisu jest dowolny.
         loadAndSetEndDate(scanner, parameters);
         loadAndSetStartDate(scanner, parameters);
 
-        api.requestBidAskRates(parameters);
+       List<Rate> rates = api.requestBidAskRates(parameters);
+       rates.forEach(log::info);
 //
     }
 
