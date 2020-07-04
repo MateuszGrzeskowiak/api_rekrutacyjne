@@ -1,0 +1,49 @@
+[main] INFO  org.example.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+[main] ERROR org.example.apirekrutacyjne.Main  - Error: unrecognized currency.
+[main] INFO  org.example.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+[main] INFO  org.example.apirekrutacyjne.Main  - Please enter end date [yyyy-MM-dd]:
+[main] INFO  org.example.apirekrutacyjne.Main  - Please enter start date [yyyy-MM-dd]:
+[main] INFO  org.example.apirekrutacyjne.NBPApi  - Request URL:http://api.nbp.pl/api/exchangerates/rates/C/RUB/2020-04-01/2020-07-03/?format-json
+[main] ERROR org.example.apirekrutacyjne.NBPApi  - Error: 404
+[main] INFO  org.example.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+[main] INFO  org.example.apirekrutacyjne.Main  - Please enter end date [yyyy-MM-dd]:
+[main] INFO  org.example.apirekrutacyjne.Main  - Please enter start date [yyyy-MM-dd]:
+[main] INFO  org.example.apirekrutacyjne.NBPApi  - Request URL:http://api.nbp.pl/api/exchangerates/rates/C/EUR/2020-05-01/2020-07-01/?format-json
+[main] INFO  org.example.apirekrutacyjne.NBPApi  - Response: {"table":"C","currency":"euro","code":"EUR","rates":[{"no":"085/C/NBP/2020","effectiveDate":"2020-05-04","bid":4.4933,"ask":4.5841},{"no":"086/C/NBP/2020","effectiveDate":"2020-05-05","bid":4.5223,"ask":4.6137},{"no":"087/C/NBP/2020","effectiveDate":"2020-05-06","bid":4.4896,"ask":4.5804},{"no":"088/C/NBP/2020","effectiveDate":"2020-05-07","bid":4.5000,"ask":4.5910},{"no":"089/C/NBP/2020","effectiveDate":"2020-05-08","bid":4.5087,"ask":4.5997},{"no":"090/C/NBP/2020","effectiveDate":"2020-05-11","bid":4.5079,"ask":4.5989},{"no":"091/C/NBP/2020","effectiveDate":"2020-05-12","bid":4.5130,"ask":4.6042},{"no":"092/C/NBP/2020","effectiveDate":"2020-05-13","bid":4.5146,"ask":4.6058},{"no":"093/C/NBP/2020","effectiveDate":"2020-05-14","bid":4.5234,"ask":4.6148},{"no":"094/C/NBP/2020","effectiveDate":"2020-05-15","bid":4.5240,"ask":4.6154},{"no":"095/C/NBP/2020","effectiveDate":"2020-05-18","bid":4.5203,"ask":4.6117},{"no":"096/C/NBP/2020","effectiveDate":"2020-05-19","bid":4.5149,"ask":4.6061},{"no":"097/C/NBP/2020","effectiveDate":"2020-05-20","bid":4.5039,"ask":4.5949},{"no":"098/C/NBP/2020","effectiveDate":"2020-05-21","bid":4.4897,"ask":4.5805},{"no":"099/C/NBP/2020","effectiveDate":"2020-05-22","bid":4.4744,"ask":4.5648},{"no":"100/C/NBP/2020","effectiveDate":"2020-05-25","bid":4.4731,"ask":4.5635},{"no":"101/C/NBP/2020","effectiveDate":"2020-05-26","bid":4.4580,"ask":4.5480},{"no":"102/C/NBP/2020","effectiveDate":"2020-05-27","bid":4.4064,"ask":4.4954},{"no":"103/C/NBP/2020","effectiveDate":"2020-05-28","bid":4.3990,"ask":4.4878},{"no":"104/C/NBP/2020","effectiveDate":"2020-05-29","bid":4.3925,"ask":4.4813},{"no":"105/C/NBP/2020","effectiveDate":"2020-06-01","bid":4.3990,"ask":4.4878},{"no":"106/C/NBP/2020","effectiveDate":"2020-06-02","bid":4.3775,"ask":4.4659},{"no":"107/C/NBP/2020","effectiveDate":"2020-06-03","bid":4.3521,"ask":4.4401},{"no":"108/C/NBP/2020","effectiveDate":"2020-06-04","bid":4.3671,"ask":4.4553},{"no":"109/C/NBP/2020","effectiveDate":"2020-06-05","bid":4.3838,"ask":4.4724},{"no":"110/C/NBP/2020","effectiveDate":"2020-06-08","bid":4.3890,"ask":4.4776},{"no":"111/C/NBP/2020","effectiveDate":"2020-06-09","bid":4.3873,"ask":4.4759},{"no":"112/C/NBP/2020","effectiveDate":"2020-06-10","bid":4.3984,"ask":4.4872},{"no":"113/C/NBP/2020","effectiveDate":"2020-06-12","bid":4.4157,"ask":4.5049},{"no":"114/C/NBP/2020","effectiveDate":"2020-06-15","bid":4.3990,"ask":4.4878},{"no":"115/C/NBP/2020","effectiveDate":"2020-06-16","bid":4.3914,"ask":4.4802},{"no":"116/C/NBP/2020","effectiveDate":"2020-06-17","bid":4.3892,"ask":4.4778},{"no":"117/C/NBP/2020","effectiveDate":"2020-06-18","bid":4.4189,"ask":4.5081},{"no":"118/C/NBP/2020","effectiveDate":"2020-06-19","bid":4.4122,"ask":4.5014},{"no":"119/C/NBP/2020","effectiveDate":"2020-06-22","bid":4.4186,"ask":4.5078},{"no":"120/C/NBP/2020","effectiveDate":"2020-06-23","bid":4.4032,"ask":4.4922},{"no":"121/C/NBP/2020","effectiveDate":"2020-06-24","bid":4.4011,"ask":4.4901},{"no":"122/C/NBP/2020","effectiveDate":"2020-06-25","bid":4.4045,"ask":4.4935},{"no":"123/C/NBP/2020","effectiveDate":"2020-06-26","bid":4.4224,"ask":4.5118},{"no":"124/C/NBP/2020","effectiveDate":"2020-06-29","bid":4.4258,"ask":4.5152},{"no":"125/C/NBP/2020","effectiveDate":"2020-06-30","bid":4.4215,"ask":4.5109},{"no":"126/C/NBP/2020","effectiveDate":"2020-07-01","bid":4.4012,"ask":4.4902}]}
+[main] INFO  org.example.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+2020-07-04 14:01:46,337 [main] INFO  org.example.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+2020-07-04 14:15:44,441 [main] INFO  org.example.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+2020-07-04 14:15:46,892 [main] INFO  org.example.apirekrutacyjne.Main  - Please enter end date [yyyy-MM-dd]:
+2020-07-04 14:15:56,772 [main] INFO  org.example.apirekrutacyjne.Main  - Please enter start date [yyyy-MM-dd]:
+2020-07-04 14:16:00,372 [main] INFO  org.example.apirekrutacyjne.NBPApi  - Request URL:http://api.nbp.pl/api/exchangerates/rates/C/USD/2020-06-01/2020-07-01/?format-json
+2020-07-04 14:16:54,602 [main] INFO  org.example.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+2020-07-04 14:16:57,449 [main] INFO  org.example.apirekrutacyjne.Main  - Please enter end date [yyyy-MM-dd]:
+2020-07-04 14:17:03,778 [main] INFO  org.example.apirekrutacyjne.Main  - Please enter start date [yyyy-MM-dd]:
+2020-07-04 14:17:07,037 [main] INFO  org.example.apirekrutacyjne.NBPApi  - Request URL:http://api.nbp.pl/api/exchangerates/rates/C/USD/2020-06-01/2020-06-30/?format=json
+2020-07-04 14:20:21,700 [main] INFO  org.example.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+2020-07-04 14:20:24,442 [main] ERROR org.example.apirekrutacyjne.Main  - Error: unrecognized currency.
+2020-07-04 14:20:24,444 [main] INFO  org.example.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+2020-07-04 14:20:27,490 [main] INFO  org.example.apirekrutacyjne.Main  - Please enter end date [yyyy-MM-dd]:
+2020-07-04 14:20:32,363 [main] INFO  org.example.apirekrutacyjne.Main  - Please enter start date [yyyy-MM-dd]:
+2020-07-04 14:20:35,034 [main] INFO  org.example.apirekrutacyjne.NBPApi  - Request URL:http://api.nbp.pl/api/exchangerates/rates/C/USD/2020-06-01/2020-06-30/?format=json
+2020-07-04 14:20:35,452 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=105/C/NBP/2020, effectiveDate=2020-06-01, bid=3.9559, ask=4.0359)
+2020-07-04 14:20:35,477 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=106/C/NBP/2020, effectiveDate=2020-06-02, bid=3.9349, ask=4.0143)
+2020-07-04 14:20:35,477 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=107/C/NBP/2020, effectiveDate=2020-06-03, bid=3.8896, ask=3.9682)
+2020-07-04 14:20:35,478 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=108/C/NBP/2020, effectiveDate=2020-06-04, bid=3.894, ask=3.9726)
+2020-07-04 14:20:35,478 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=109/C/NBP/2020, effectiveDate=2020-06-05, bid=3.8903, ask=3.9689)
+2020-07-04 14:20:35,478 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=110/C/NBP/2020, effectiveDate=2020-06-08, bid=3.8851, ask=3.9635)
+2020-07-04 14:20:35,479 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=111/C/NBP/2020, effectiveDate=2020-06-09, bid=3.8791, ask=3.9575)
+2020-07-04 14:20:35,479 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=112/C/NBP/2020, effectiveDate=2020-06-10, bid=3.8756, ask=3.9538)
+2020-07-04 14:20:35,479 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=113/C/NBP/2020, effectiveDate=2020-06-12, bid=3.8852, ask=3.9636)
+2020-07-04 14:20:35,480 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=114/C/NBP/2020, effectiveDate=2020-06-15, bid=3.8922, ask=3.9708)
+2020-07-04 14:20:35,480 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=115/C/NBP/2020, effectiveDate=2020-06-16, bid=3.894, ask=3.9726)
+2020-07-04 14:20:35,480 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=116/C/NBP/2020, effectiveDate=2020-06-17, bid=3.8944, ask=3.973)
+2020-07-04 14:20:35,481 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=117/C/NBP/2020, effectiveDate=2020-06-18, bid=3.9384, ask=4.018)
+2020-07-04 14:20:35,481 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=118/C/NBP/2020, effectiveDate=2020-06-19, bid=3.935, ask=4.0144)
+2020-07-04 14:20:35,481 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=119/C/NBP/2020, effectiveDate=2020-06-22, bid=3.9388, ask=4.0184)
+2020-07-04 14:20:35,482 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=120/C/NBP/2020, effectiveDate=2020-06-23, bid=3.9157, ask=3.9949)
+2020-07-04 14:20:35,482 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=121/C/NBP/2020, effectiveDate=2020-06-24, bid=3.8847, ask=3.9631)
+2020-07-04 14:20:35,482 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=122/C/NBP/2020, effectiveDate=2020-06-25, bid=3.9092, ask=3.9882)
+2020-07-04 14:20:35,482 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=123/C/NBP/2020, effectiveDate=2020-06-26, bid=3.9428, ask=4.0224)
+2020-07-04 14:20:35,483 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=124/C/NBP/2020, effectiveDate=2020-06-29, bid=3.9489, ask=4.0287)
+2020-07-04 14:20:35,483 [main] INFO  org.example.apirekrutacyjne.Main  - Rate(no=125/C/NBP/2020, effectiveDate=2020-06-30, bid=3.9274, ask=4.0068)
