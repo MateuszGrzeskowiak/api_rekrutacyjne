@@ -20,7 +20,19 @@ Format daty wejściowej serwisu jest dowolny.
 
         loadAndSetCurrency(scanner, parameters);
         loadAndSetEndDate(scanner, parameters);
+
 //
+    }
+
+    private static void loadAndSetStartDate(Scanner scanner, NBPApiParameters parameters) {
+        do {
+            System.out.println("Please enter end date [yyyy-MM-dd]:");
+            try {
+                parameters.setStartDate(scanner.nextLine());
+            } catch (DateTimeParsingException e) {
+                System.err.println("Wrong date: " + e.getMessage());
+            }
+        } while (parameters.getStartDate() == null);
     }
 
     private static void loadAndSetEndDate(Scanner scanner, NBPApiParameters parameters) {
