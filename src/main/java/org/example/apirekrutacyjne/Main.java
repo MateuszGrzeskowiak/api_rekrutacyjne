@@ -20,20 +20,12 @@ Format daty wejściowej serwisu jest dowolny.
 
         loadAndSetCurrency(scanner, parameters);
         loadAndSetEndDate(scanner, parameters);
-
+        loadAndSetStartDate(scanner, parameters);
+        NBPApi api = new NBPApi();
+        api.requestBidAskRates(parameters);
 //
     }
 
-    private static void loadAndSetStartDate(Scanner scanner, NBPApiParameters parameters) {
-        do {
-            System.out.println("Please enter end date [yyyy-MM-dd]:");
-            try {
-                parameters.setStartDate(scanner.nextLine());
-            } catch (DateTimeParsingException e) {
-                System.err.println("Wrong date: " + e.getMessage());
-            }
-        } while (parameters.getStartDate() == null);
-    }
 
     private static void loadAndSetEndDate(Scanner scanner, NBPApiParameters parameters) {
         do {
@@ -46,13 +38,27 @@ Format daty wejściowej serwisu jest dowolny.
         } while (parameters.getEndDate() == null);
     }
 
+    private static void loadAndSetStartDate(Scanner scanner, NBPApiParameters parameters) {
+        do {
+            System.out.println("Please enter start date [yyyy-MM-dd]:");
+            try {
+                parameters.setStartDate(scanner.nextLine());
+            } catch (DateTimeParsingException e) {
+                System.err.println("Wrong date: " + e.getMessage());
+            }
+        } while (parameters.getStartDate() == null);
+    }
+
     private static void loadAndSetCurrency(Scanner scanner, NBPApiParameters parameters) {
         do {
             System.out.println("Please enter currency [dolar,euro,rubel]:");
             Optional<NBPCurrency> optionalCurrency = NBPCurrency.parse(scanner.nextLine());
             if (optionalCurrency.isPresent()) {
                 parameters.setCurrency(optionalCurrency.get());
+            } else {
+                System.err.println("Error: Unrecognised currency.");
             }
         } while (parameters.getCurrency() == null); // wykonuj pętle, dopóki currency == null
     }
+
 }
